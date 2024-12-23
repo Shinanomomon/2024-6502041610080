@@ -1,0 +1,19 @@
+#Identification(Register)
+POST http://localhost:8080/auth/local/register HTTP/1.1
+Content-Type : application/json
+Authorization: Bearer 89d3091ea9594195b643001c26a02b7312f05d7b070a8d866876ee67930a41b1da6872c590772263c18c4399f009f35b45a47171a238a197bab4d24181000c70816a09948343347dddbce3424f691316e6a76c22df467da31481b57afd50b522c3e5ac40d6f0ea9121c10dc530504d25110d020d083026900d4f4ab221349144
+
+{
+    "username": "shinakami",
+    "email": "anny32@gmail.com",
+    "password": "D4te@rive",
+}
+
+# Authentication(Login)
+POST http://localhost:8080/auth/local HTTP/1.1
+Content-Type : application/json
+
+{
+    "identifier": "anny32@test.com",
+    "password": "D4te@rive"
+}

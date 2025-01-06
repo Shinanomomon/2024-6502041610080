@@ -1,6 +1,6 @@
 #Identification(Register)
 POST http://localhost:8080/api/auth/local/register HTTP/1.1
-Content-Type : application/json
+Content-Type: application/json
 Authorization: Bearer f71938886dcb962844374921152b8fdd27bd7ace6904d9e260ab3e6c645d2a34899f4ea5858f52982d63b6fecfc577cef18e0ab5ec7b8ae4df34ff68c86025a5f1a7083ba7d102e7fd5ca0d66a952d1e62b4bbe55b04d3fc3f5009e12517692d56375a883f9ffc85850df2b5ac1af8cdebcde7216eb5c5580a60b59d6982cec7
 
 {

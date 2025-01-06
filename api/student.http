@@ -1,0 +1,26 @@
+### insert student
+POST http://localhost:8080/api/students
+Authorization: Bearer d1a6a78b7fd2530c2a33dd3c0a4fe55390e5289f88f29429c9b2a8f5aeeebbdcf96f27481d271410f81086b4cf7a3f50fa14b158ddccf6b186eae0a504864154c4835543b624e881c9a9289c1a3de87988d96632ce4389ab0cb71b43081711ea24c1337ca3d3ee40482d90e102a9c1bc2155e385d91285dd958da5e6539d6f49
+Content-Type: application/json
+
+{
+    "data":{
+    "name":"naphaphon Klaimanee",
+    "mobile":"0659319034",
+    "cardId":"6502041610080"
+    }
+}
+####
+
+
+POST http://localhost:8080/api/students
+Authorization: Bearer d1a6a78b7fd2530c2a33dd3c0a4fe55390e5289f88f29429c9b2a8f5aeeebbdcf96f27481d271410f81086b4cf7a3f50fa14b158ddccf6b186eae0a504864154c4835543b624e881c9a9289c1a3de87988d96632ce4389ab0cb71b43081711ea24c1337ca3d3ee40482d90e102a9c1bc2155e385d91285dd958da5e6539d6f49
+Content-Type: application/json
+
+{
+    "data":{
+    "name":"Benyapha Kongmuenrak",
+    "mobile":"0966962077",
+    "cardId":"6502041620069"
+    }  
+}
